@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Cabin:wght@500&family=Heebo:wght@300&family=Open+Sans&family=Oswald&family=Teko:wght@500&display=swap');
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.main-box{
+    display: flex;
+    justify-content: center;
+}
+.box1{
+    background-image: url('image1.jpg');
+    background-size: cover;
+    height: 610px;
+    width: 50%;
+}
+span{
+    text-decoration: line-through white;
+}
+.add-box1{
+    height: 8vh;
+    width: 60%;
+    margin-left: 5rem;
+    margin-top: 3rem;
+}
+.heading-box1{
+    font-size: 2.5rem;
+}
+.btn-color{
+    height: 40px;
+    width: 40px;
+    background-color: rgb(117, 113, 113);
+    border-radius: 5px;
+    border-style: none;
+    cursor: pointer;
+    margin-top: 6rem;
+}
+.btn-color i{
+    font-size: 20px;
+    color: rgb(238, 231, 231);
+}
+.content-box1{
+    margin-left: 5rem;
+}
+.content-heading{
+    font-size: 3.3rem;
+    margin-bottom: 1.3rem;
+}
+.add-content{
+    font-size: 1.3rem;
+}
+/* box2 login form content */
+.box2{
+    height: 610px;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#content-input-box2{
+    font-size: 20px;
+    margin-top: 1rem;
+    color: rgb(66, 64, 64);
+}
+.otp-box{
+    display: flex;
+    justify-content: space-between;
+    margin-right: 30px;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+.otp-box input{
+    height: 50px;
+    width: 80px;
+    font-size:xx-large;
+}
+.btn-box2{
+    margin-top: 1rem;
+}
+.btn-box2 button{
+    font-size: 1.2rem;
+    height: 3rem;
+    width: 26.5rem;
+    padding: 10px 20px 10px 20px;
+    border-radius: 5px;
+}
+.signup-box2{
+    display: flex;
+    justify-content: center;
+    margin-top: 1.2rem;
+    font-size: 1.2rem;
+}
+.signup-box2 p{
+    color: rgb(138, 136, 136);
+    font-weight: 500;
+}
+.signup-box2 a{
+    text-decoration: none;
+    padding-left: 5px;
+    padding-right: 30px;
+}
